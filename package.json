@@ -1,0 +1,21 @@
+{
+  "name": "nexuscore",
+  "version": "1.0.0",
+  "description": "Blinkchain and Sigilforge ritual engine",
+  "main": "scripts/blinkchainFinal.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/blinkchainFinal.js",
+    "deploy": "node scripts/deployWatermark.js"
+  },
+  "keywords": [
+    "blinkchain",
+    "sigilforge",
+    "oracle",
+    "glyph",
+    "ritual"
+  ],
+  "author": "Drake",
+  "license": "MIT",
+  "dependencies": {}
+}

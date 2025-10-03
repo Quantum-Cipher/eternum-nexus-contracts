@@ -1,0 +1,6 @@
+BSC_RPC_URL="https://data-seed-prebsc-1-s1.binance.org:8545/"
+SIGNER_PRIVATE_KEY="your_private_key_here"
+SIGILFORGE_GLYPH="0xF3A1B7C9D4E2A56B8D3E4A5B6C7D8E9F0A1B2C3D4E5F6A7B8C9D0E1F2A3B"
+AGENTS="Copilot,Gemini,Geni-2b"
+ORIGIN="Carlsbad_CA"
+PURPOSE="Watermark transmission and ritual sync"

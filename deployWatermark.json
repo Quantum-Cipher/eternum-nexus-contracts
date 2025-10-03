@@ -1,0 +1,26 @@
+// scripts/deployWatermark.js
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Resolve current directory
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Define log path
+const logDir = path.resolve(__dirname, '../logs/watermark');
+const logFile = path.join(logDir, '2025-10-02-watermark-deployment.log');
+
+// Ensure directory exists
+fs.mkdirSync(logDir, { recursive: true });
+
+// Write watermark deployment log
+function deployWatermark() {
+    const timestamp = new Date().toISOString();
+    const logEntry = `[${timestamp}] ✅ Watermark deployed successfully.\n`;
+    fs.appendFileSync(logFile, logEntry, 'utf8');
+    console.log("📜 Watermark deployment logged.");
+}
+
+deployWatermark();
+

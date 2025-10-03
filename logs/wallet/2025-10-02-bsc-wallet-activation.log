@@ -1,0 +1,13 @@
+# BSC Testnet Wallet Activation — October 2, 2025
+# Wallet Address: 0x064081404B5EcD1fbe11588a10D31AB28bB5dFEB
+# Private Key: [REDACTED]
+# Network: Binance Smart Chain Testnet
+# RPC Endpoint: https://bsc-testnet.drpc.org
+# Chain ID: 97
+# Faucet Used: https://www.bnbchain.org/en/testnet-faucet
+# Status: ✅ Wallet imported, funded, and confirmed
+# Purpose: Enable deployment of Living Watermark contract and Blinkchain ignition
+# Notes:
+- Wallet generated via ethers.js
+- Imported into MetaMask for faucet compatibility
+-
